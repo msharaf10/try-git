@@ -1,1 +1,4 @@
-console.log('Hi, git!');
+function sayHi(name){
+	console.log('Hi, ' + name);
+}
+
