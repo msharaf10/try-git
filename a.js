@@ -8,3 +8,7 @@ function sayHello(name){
 app.get('/', function(req, res){
 		res.send('hello');
 });
+
+app.get('/test', function(req, res){
+	res.send('test');
+});
